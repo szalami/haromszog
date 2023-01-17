@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+Author: Faragó Csaba
+Copyright: 2021, Faragó Csaba
+Group: Szoft E I-1
+Date: 2023-01-17
+Github: https://github.com/szalami/
+Licenc: GNU GPL
+-->
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Háromszög</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Háromszög területszámítás</h1>
+
+        <div class="triangleForm">
+
+            <div class="input">
+                <label for="base" class="form-label">Alap</label>
+                <input type="text" id="base" class="form-control">
+            </div>
+        <div class="triangleForm">
+
+            <div class="input">
+                <label for="height" class="form-label">Magasság</label>
+                <input type="text" id="height" class="form-control">
+            </div>
+
+            <button id="calcButton" class="btn btn-primary mt-2">Számít</button>
+
+            <div class="output">
+                <label for="area" class="form-label">Terület</label>
+                <input type="text" id="area" class="form-control">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
